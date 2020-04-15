@@ -1,2 +1,2 @@
-def saludo():
-    return  "Hola"
+def sumar (a, b):
+    return a + b
