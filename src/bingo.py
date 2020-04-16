@@ -1,5 +1,7 @@
-def sumar (a, b):
-    return a + b
-
-def restar (c, d):
-    return c - d
+def carton():
+    carton = (
+           (1,0,0,1,1,0,1,0,1),
+           (0,1,1,1,0,1,1,1,1),
+           (0,1,0,0,1,0,0,1,0) 
+    )
+    return carton
