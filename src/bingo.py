@@ -12,4 +12,4 @@ def validar_quince_numeros(carton):
         for celda in fila:
             if celda == 0:
                 celdas_vacias = celdas_vacias + 1
-    return celdas_vacias == 15
+    return celdas_vacias == 12
