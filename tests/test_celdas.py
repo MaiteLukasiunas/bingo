@@ -4,8 +4,8 @@ from src.bingo import validar_quince_numeros
 def test_contar_celdas_ocupadas():
     carton = (
             (12,16,0,0,6,0,0,2,0),
-            (15,0,9,0,3,4,5,0,0),
-            (8,20,0,10,0,0,0,0,0)
+            (15,0,9,0,3,4,5,0,10),
+            (8,20,0,10,1,0,88,0,0)
         )
     assert validar_quince_numeros(carton) == True
 
