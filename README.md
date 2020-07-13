@@ -1,5 +1,6 @@
 # bingo
 
+[![Build Status](https://travis-ci.com/MaiteLukasiunas/Bingo.svg?branch=master)](https://travis-ci.com/MaiteLukasiunas/Bingo)
 [![Coverage Status](https://coveralls.io/repos/github/MaiteLukasiunas/bingo/badge.svg?branch=master)](https://coveralls.io/github/MaiteLukasiunas/bingo?branch=master)
 
 Proyecto para la materia Adaptacion del Ambiente De Trabajo del Instituto Politecnico Superior General San Martin del profesor Mariano Dagostino
