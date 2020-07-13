@@ -43,7 +43,7 @@ def intentoCarton():
         for i in range(9):
           if (carton[fila][i] == 0):
               huecos = huecos + 1
-        if (huecos < 5 or carton[int(fila)][int(i)] != 0):
+        if (huecos < 5 or carton[int(fila)][int(columna)] != 0):
           fila = fila + 1
         else:
           break
@@ -64,15 +64,6 @@ def intentoCarton():
         return intentoCarton()
 
     return carton
-
-
-
-
-def imprimirCarton(carton):
-    for columna in range(3):
-        for fila in range(9):
-                print(carton[columna][fila])
-        print('\n')
 
 
 
@@ -146,7 +137,6 @@ def no_todas_las_celdas_de_column_ocup(mi_carton):
     contador = 0
     contador2 = 9
     aux = 0
-
     for i in range(contador2):
         if (mi_carton[0][i] + mi_carton[1][i] + mi_carton[2][i]) < 3:
             contador += 1
@@ -322,5 +312,8 @@ def generador_carton():
     return mi_carton
 
 carton = generador_carton()
-imprimirCarton(carton)
+
+for fila in carton:
+    print(fila)
+
 
