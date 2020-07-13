@@ -5,7 +5,7 @@
 
 Proyecto para la materia Adaptacion del Ambiente De Trabajo del Instituto Politecnico Superior General San Martin del profesor Mariano Dagostino
 
-###Objetivo:
+##Objetivo:
   - Crear un programa que genere cartones de bingo y que corriendo una serie de tests descarte aquellos que no sean validos y muestre el carton valido conseguido.
 
 ### Los tests que deben cumplirse para lograr un carton valido son:
